@@ -14,6 +14,10 @@ class AccountAdmin(UserAdmin):
         'is_active'
     )
 
+    list_display_links = ('email', 'first_name', 'last_name')
+    readonly_fields = ('last_login',)
+    ordering = ('first_name',)
+
     filter_horizontal = ()
     list_filter = ()
     fieldsets = ()
