@@ -10,7 +10,7 @@ class AccountAdmin(UserAdmin):
         'first_name', 
         'last_name', 
         'username', 
-        'last_login', 
+        'last_login',
         'is_active'
     )
 
