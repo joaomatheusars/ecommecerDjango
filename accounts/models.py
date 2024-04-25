@@ -14,7 +14,7 @@ class MyAccountManager(BaseUserManager):
             last_name = last_name
         )
         
-        user.is_active=True
+        # user.is_active=True
         user.set_password(password)
         user.save(using=self.db)
         return user
