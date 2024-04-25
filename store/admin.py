@@ -25,7 +25,7 @@ class VariationAdmin(admin.ModelAdmin):
     )
 
     list_editable = ('is_active',)
-    list_filter = ('product',)
+    list_filter = ('product','variation_category',)
 
 
 
