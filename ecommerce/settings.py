@@ -126,6 +126,13 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+CORS_ALLOWED_ORIGINS = [
+    'https://web-production-93c6.up.railway.app',
+]
+
+CSRF_TRUSTED_ORIGINS = [
+    'https://web-production-93c6.up.railway.app'
+]
 
 # Internationalization
 # https://docs.djangoproject.com/en/5.0/topics/i18n/
