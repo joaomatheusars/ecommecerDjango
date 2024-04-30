@@ -127,11 +127,11 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    'https://web-production-93c6.up.railway.app',
+    'https://ecommecerdjango-production.up.railway.app',
 ]
 
 CSRF_TRUSTED_ORIGINS = [
-    'https://web-production-93c6.up.railway.app'
+    'https://ecommecerdjango-production.up.railway.app'
 ]
 
 # Internationalization
