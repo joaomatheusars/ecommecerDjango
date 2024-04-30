@@ -8,7 +8,7 @@ from django.db.models import Q
 
 # Create your views here.
 def store(request, category_slug=None):
-    number_per_product_pag = 9
+    number_per_product_pag = 6
     categories = None
     products = None
 
