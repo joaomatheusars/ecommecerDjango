@@ -26,6 +26,9 @@ class RegistrationForm(forms.ModelForm):
                 "Password does not match!"
             )
         
+        if len(password) < 8:
+            raise forms.ValidationError("Password must have at least eight characters.")
+        
     def __init__(self, *args, **kargs):
         super(RegistrationForm, self).__init__(*args, **kargs)
         self.fields['first_name'].widget.attrs['placeholder'] = 'Enter First Name'
